@@ -1,4 +1,4 @@
-FROM python:3.11.0b3-alpine
+FROM python:3.12.0a2-alpine
 
 LABEL "com.github.actions.name"="Sync S3"
 LABEL "com.github.actions.description"="Sync a directory to an AWS S3 repository"
